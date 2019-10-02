@@ -15,5 +15,6 @@ public class HighLow {
                 low = scoresArray[j];
             }
         System.out.println("The high is "+ high + " The low is " + low);
+
     }
 }
