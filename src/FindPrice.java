@@ -28,7 +28,8 @@ public class FindPrice {
                         itemPrice = prices[i];
                     }
                 }
-                if (validItem) {
+                if (validItem)
+                {
                     JOptionPane.showMessageDialog(null, "The price for item " +
                             itemOrdered + " is $ " + itemPrice);
                 } else
