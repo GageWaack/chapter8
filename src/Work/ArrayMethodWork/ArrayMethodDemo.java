@@ -24,10 +24,11 @@ public class ArrayMethodDemo
     }
        public static void displaysum(int[] omega)
     {
-        int total = 0;
-        total = total + omega
-        for (int total = omega.length; )
+        for (int total = omega.length; --total)
+        {
+            total = total + omega;
+            System.out.println("Here is the sum " + total);
+        }
 
-        System.out.println("Here is the sum " + total);
     }
 }
