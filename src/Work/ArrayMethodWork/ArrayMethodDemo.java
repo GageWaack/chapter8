@@ -7,6 +7,7 @@ public class ArrayMethodDemo
         displayForward(omega);
        displayreverse(omega);
         displaysum(omega);
+        Avg.displayAvg(omega);
     }
     public static void displayForward(int[] omega){
 
@@ -17,8 +18,8 @@ public class ArrayMethodDemo
     public static void displayreverse(int[] omega)
     {
 
-        for(int i = omega.length-1; i >= 0; --i) {
-            System.out.println("Numbers backwards is "+ omega[i]);
+        for(int j = omega.length-1; j >= 0; --j) {
+            System.out.println("Numbers backwards is "+ omega[j]);
         }
     }
        public static void displaysum(int[] omega)
@@ -29,5 +30,14 @@ public class ArrayMethodDemo
         sum += value;
         System.out.println("The sum is "+ sum);
         }
+    }
+    public static void displayAvg(int[]omega, int[]sum){
+
+        int avg;
+
+
+            avg = sum.length / omega.length;
+            System.out.println(sum);
+
     }
 }
